@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Personal Portfolio</title>
+<style>
+	body{
+		background-image: url(fog.jpg);
+		font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+		color:white;
+		margin: 30px ;
+		padding: 30px;
+		align-items: center;
+	}
+
+	.header{
+	height: 100;
+	align-content: center;
+
+	}
+	img{
+		width: 1250px;
+		height: 800px;
+		margin: 27px;
+	}
+	h1{
+		text-align: center ;
+		background-color: #26261d;
+		padding: 15px;
+
+	}
+	p{
+		color: black;
+	}
+
+	.box{
+		border: 2px, dashed, black;
+			border-radius: 3px;
+			height: 250px;
+			float: center;
+			width: 30px;
+			height: 70px;
+
+	}
+	#work1{
+
+			width: 500px;
+			height: 250px;
+			float: center;
+			
+			
+		}
+
+	#work2{
+		    width: 500px;
+			height: 250px;
+			float: center;
+			
+		
+
+	}
+   		
+	
+	dd{
+		color: black;
+
+	}
+
+	h2{
+		color: black;
+	}
+
+
+
+		label{
+			font-size: 15px;
+			font-weight: bold;
+			margin: 10px 0 5px;
+			display: block;
+		}
+		input,select,textarea,button{
+			width: 100%;
+			padding: 4px;
+			margin: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+		.option-label{
+			display: inline-flex;
+			align-items: center;
+			margin right: 10px;
+			font-weight: normal;
+		}
+		.option-label{
+			margin right: 5px;
+			width: auto;
+		}
+		input[type="submit"],
+		input[type="reset"],
+		button{
+			background: black;
+			color: white;
+			cursor: pointer;
+			border: none;
+			transition: background 0.3s;
+		}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover{
+			background: blue;
+			color: white;
+			border:;
+		}
+		.form-buttons{
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+			padding:3px;
+		}
+		#forms{
+			background-color: white;
+			padding: 30px 40px;
+			border-radius: 10px;
+			width: 45%;
+			max-width: 200%;
+			color: black;
+			border-radius: 5px;
+			margin-left: 325px;
+		}
+		.container{
+			text-align: center;
+		}
+		h3{
+			color: white;
+			background: black;
+
+		}
+
+	</style>
+
+	
+
+</style>
+</head>
+
+
+<body>
+
+<div class="header">
+	<img src="sean.jpg">
+
+</div>
+
+<br>
+
+<h1>About me</h1>
+
+<p>Hi I am Sean Matthew Lee. I am 14 years and my birthday is on November 10, 2010. I like watching movies and playing basetball and video games. I am the number 1 fan of Japanese food especially sushi. My favorite player is Stephen Curry since he is the reason why I play basketball. My favorite movie is Whiplash. I don't have any mastered hobby but I love learning everything. My favorite song is Ditto by NewJeans but I love OPM, Rock, and HipHop.
+</p>
+
+<br>
+<br>
+
+
+<h1>My Works</h1>
+
+<div class="container">
+<img src="robot.png" id="work1">
+
+
+<br>
+
+<h2>ICT ROBOTICS LOGIN FORM</h2>
+
+<dt>
+    	<dd>Skills Test</dd>
+    	<dd>Forms</dd>
+    	<dd>Best Work</dd>
+    	
+</ul>
+
+
+<br>
+
+</div>
+
+<div class="container">
+<img src="sean.png" id="work2">
+
+<br>
+
+	<h2> PROFILE ABOUT ME</h2>
+
+<dt>
+    	<dd>Practice 2</dd>
+    	<dd>Unordered and Ordered lists, Links</dd>
+    	<dd>Second Best Work</dd>
+    	
+</ul>
+
+</div>
+
+<br>
+<br>
+
+
+<h1>FORMS</h1>
+
+<br>
+<br>
+
+<div class="container" id="forms">
+		<h2>REGISTER A PORTFOLIO</h2>
+		<form>
+			<label for="text">Full Name</label>
+			<input type="text" id="text" name="text">
+
+			<label for="text">Email</label>
+			<input type="text" id="text" name="">
+
+			<label for="dropdown">Age</label>
+
+			<select id="dropdown" name="dropdown">
+				<option value="Child">Child</option>
+				<option value="Teenager">Teenager</option>
+				<option value="Adult">Adult</option>
+				</select>
+
+			<label>Gender</label>
+				<label class="option-label"><input type="radio" id="Male"
+					name="radio"value="Male">Male</label>
+				<label class="option-label"><input type="radio" id="Female"
+					name="radio"value="Female">Female</label>
+					
+			<label>What makes you?</label>
+			<label class="option-label"><input type="checkbox"
+				id="Hobbies" name="checkbox"
+				value="Coding">Hobbies</label>
+			<label class="option-label"><input type="checkbox"
+				id="Designing" name="checkbox"
+				value="Designing">Family</label>
+			<label class="option-label"><input type="checkbox"
+				id="Electronics" name="checkbox"
+				value="Electronics">Friends</label>
+
+			<label for="textarea">Write something about yourself</label>
+			<textarea id="textarea" name="textarea" rows="4"></textarea>
+
+		   	<h3>Helpful Links</h3>
+		   	<ul class="Helpful links">
+    	    <li><a href="Facebook.com">Facebook Page</a> </li>
+    	    <li><a href="Instagram.com">Instagram Page</a> </li>
+    	    <li><a href="Gmail.com">Gmail Page</a> </li>
+            </ul>
+
+            <div class="form buttons">
+				<input type="submit" name="SUBMIT">
+
+</div>
+
+</body>
+</html>
